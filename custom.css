@@ -1,5 +1,13 @@
 
 
+h4 .header-section-number {
+  display: none;  /* oculta la numeración */
+}
+
+h5 .header-section-number {
+  display: none;  /* oculta la numeración */
+}
+
 /* Enlaces sin subrayado */
 
 a,

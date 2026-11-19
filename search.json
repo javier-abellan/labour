@@ -100,6 +100,116 @@
     ]
   },
   {
+    "objectID": "household.html",
+    "href": "household.html",
+    "title": "9  Household economics",
+    "section": "",
+    "text": "9.1 The great gender convergence",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Household economics</span>"
+    ]
+  },
+  {
+    "objectID": "household.html#economic-consequences-of-parenthood",
+    "href": "household.html#economic-consequences-of-parenthood",
+    "title": "9  Household economics",
+    "section": "9.2 Economic consequences of parenthood",
+    "text": "9.2 Economic consequences of parenthood",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Household economics</span>"
+    ]
+  },
+  {
+    "objectID": "household.html#fertility-related-government-policies",
+    "href": "household.html#fertility-related-government-policies",
+    "title": "9  Household economics",
+    "section": "9.3 Fertility-related government policies",
+    "text": "9.3 Fertility-related government policies",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Household economics</span>"
+    ]
+  },
+  {
+    "objectID": "intergenerational_mobility.html",
+    "href": "intergenerational_mobility.html",
+    "title": "10  Intergenerational mobility",
+    "section": "",
+    "text": "10.1 Historical and international perspective",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Intergenerational mobility</span>"
+    ]
+  },
+  {
+    "objectID": "intergenerational_mobility.html#neighborhood-effects",
+    "href": "intergenerational_mobility.html#neighborhood-effects",
+    "title": "10  Intergenerational mobility",
+    "section": "10.2 Neighborhood effects",
+    "text": "10.2 Neighborhood effects",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Intergenerational mobility</span>"
+    ]
+  },
+  {
+    "objectID": "intergenerational_mobility.html#the-role-of-human-capital",
+    "href": "intergenerational_mobility.html#the-role-of-human-capital",
+    "title": "10  Intergenerational mobility",
+    "section": "10.3 The role of human capital",
+    "text": "10.3 The role of human capital",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Intergenerational mobility</span>"
+    ]
+  },
+  {
+    "objectID": "sorting.html",
+    "href": "sorting.html",
+    "title": "11  Sorting",
+    "section": "",
+    "text": "11.1 Roy model and control function estimation",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Sorting</span>"
+    ]
+  },
+  {
+    "objectID": "sorting.html#sorting-across-and-within-firm-inequality",
+    "href": "sorting.html#sorting-across-and-within-firm-inequality",
+    "title": "11  Sorting",
+    "section": "11.2 Sorting across and within-firm inequality",
+    "text": "11.2 Sorting across and within-firm inequality",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Sorting</span>"
+    ]
+  },
+  {
+    "objectID": "sorting.html#firm-sorting-and-across-group-inequality",
+    "href": "sorting.html#firm-sorting-and-across-group-inequality",
+    "title": "11  Sorting",
+    "section": "11.3 Firm sorting and across-group inequality",
+    "text": "11.3 Firm sorting and across-group inequality",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Sorting</span>"
+    ]
+  },
+  {
+    "objectID": "search.html",
+    "href": "search.html",
+    "title": "12  Search models",
+    "section": "",
+    "text": "12.1 Search models",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Search models</span>"
+    ]
+  },
+  {
+    "objectID": "search.html#compensating-differentials",
+    "href": "search.html#compensating-differentials",
+    "title": "12  Search models",
+    "section": "12.2 Compensating differentials",
+    "text": "12.2 Compensating differentials",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Search models</span>"
+    ]
+  },
+  {
     "objectID": "references.html",
     "href": "references.html",
     "title": "References",

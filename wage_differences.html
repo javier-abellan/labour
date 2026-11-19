@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>7&nbsp; Wage differences – Labour Economics</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./discrimination.html" rel="next">
+<link href="./government.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-5ccb035bea26c1e21f80f44cf7c27909.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./wage_differences.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Wage differences</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Labour Economics</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./statistics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Labour market statistics</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./basic.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">The basic model of the labour market</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./macro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">The labour market and the macroeconomy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./human_capital.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Human capital</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./government.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Government and the labour market</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./wage_differences.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Wage differences</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./discrimination.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Discrimination</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">7.1</span> Introduction</a></li>
+  <li><a href="#differences-among-workers" id="toc-differences-among-workers" class="nav-link" data-scroll-target="#differences-among-workers"><span class="header-section-number">7.2</span> Differences among workers</a>
+  <ul class="collapse">
+  <li><a href="#differences-in-human-capital" id="toc-differences-in-human-capital" class="nav-link" data-scroll-target="#differences-in-human-capital"><span class="header-section-number">7.2.1</span> Differences in human capital</a></li>
+  <li><a href="#differences-in-preferences" id="toc-differences-in-preferences" class="nav-link" data-scroll-target="#differences-in-preferences"><span class="header-section-number">7.2.2</span> Differences in preferences</a></li>
+  </ul></li>
+  <li><a href="#differences-among-jobs" id="toc-differences-among-jobs" class="nav-link" data-scroll-target="#differences-among-jobs"><span class="header-section-number">7.3</span> Differences among jobs</a>
+  <ul class="collapse">
+  <li><a href="#observed-differences-in-the-wage-structure" id="toc-observed-differences-in-the-wage-structure" class="nav-link" data-scroll-target="#observed-differences-in-the-wage-structure"><span class="header-section-number">7.3.1</span> Observed differences in the wage structure</a></li>
+  <li><a href="#sec-compensating-differentials" id="toc-sec-compensating-differentials" class="nav-link" data-scroll-target="#sec-compensating-differentials"><span class="header-section-number">7.3.2</span> Compensating wage differentials</a></li>
+  <li><a href="#differences-in-skill-requirements" id="toc-differences-in-skill-requirements" class="nav-link" data-scroll-target="#differences-in-skill-requirements"><span class="header-section-number">7.3.3</span> Differences in skill requirements</a></li>
+  <li><a href="#wage-differences-arising-from-efficiency-wages" id="toc-wage-differences-arising-from-efficiency-wages" class="nav-link" data-scroll-target="#wage-differences-arising-from-efficiency-wages"><span class="header-section-number">7.3.4</span> Wage differences arising from efficiency wages</a></li>
+  <li><a href="#other-differences-among-jobs" id="toc-other-differences-among-jobs" class="nav-link" data-scroll-target="#other-differences-among-jobs"><span class="header-section-number">7.3.5</span> Other differences among jobs</a></li>
+  </ul></li>
+  <li><a href="#labour-market-imperfections" id="toc-labour-market-imperfections" class="nav-link" data-scroll-target="#labour-market-imperfections"><span class="header-section-number">7.4</span> Labour market imperfections</a>
+  <ul class="collapse">
+  <li><a href="#imperfect-information" id="toc-imperfect-information" class="nav-link" data-scroll-target="#imperfect-information"><span class="header-section-number">7.4.1</span> Imperfect information</a></li>
+  <li><a href="#barriers-to-mobility" id="toc-barriers-to-mobility" class="nav-link" data-scroll-target="#barriers-to-mobility"><span class="header-section-number">7.4.2</span> Barriers to mobility</a></li>
+  </ul></li>
+  <li><a href="#empirical-evidence" id="toc-empirical-evidence" class="nav-link" data-scroll-target="#empirical-evidence"><span class="header-section-number">7.5</span> Empirical evidence</a>
+  <ul class="collapse">
+  <li><a href="#tools-for-analysing-inequality" id="toc-tools-for-analysing-inequality" class="nav-link" data-scroll-target="#tools-for-analysing-inequality"><span class="header-section-number">7.5.1</span> Tools for analysing inequality</a></li>
+  <li><a href="#sec-wage-distribution" id="toc-sec-wage-distribution" class="nav-link" data-scroll-target="#sec-wage-distribution"><span class="header-section-number">7.5.2</span> Representing the wage distribution</a></li>
+  <li><a href="#measures-of-position" id="toc-measures-of-position" class="nav-link" data-scroll-target="#measures-of-position"><span class="header-section-number">7.5.3</span> Measures of position</a></li>
+  <li><a href="#the-lorenz-curve-and-the-gini-coefficient" id="toc-the-lorenz-curve-and-the-gini-coefficient" class="nav-link" data-scroll-target="#the-lorenz-curve-and-the-gini-coefficient"><span class="header-section-number">7.5.4</span> The Lorenz curve and the Gini coefficient</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Wage differences</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>This chapter is devoted to wage differences under perfect competition in the labour market. The next chapter discusses wage differences under imperfect competition, focusing on discrimination.</p>
+<section id="introduction" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">7.1</span> Introduction</h2>
+<p>Suppose all jobs are identical, all workers are equally productive, mobility is perfect, and the labour market is perfectly competitive. Under these assumptions, the <strong>wage structure</strong> (the set of wages paid to workers) will be stable. Everyone will earn the same wage, so the average wage will also be the only wage in the economy.</p>
+<p>Even a casual look at the economy reveals wage differences, many of which persist over time. Industry and occupation are two dimensions along which we can examine the wage structure. There are many others. Wages also vary considerably across regions and between women and men.</p>
+<p>What gives rise to these wage differences, and how can they persist? Why do some narrow over time while others remain unchanged or widen? To answer these questions, we need to relax some assumptions of the basic model. Three features of labour markets help explain wage differences. Workers differ, jobs differ, and labour markets are imperfect.</p>
+</section>
+<section id="differences-among-workers" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="differences-among-workers"><span class="header-section-number">7.2</span> Differences among workers</h2>
+<p>The basic model predicts equal wages on the assumption that all jobs are identical and all members of the labour force are equally productive. In practice, workers differ both in <strong>how much and what kind of human capital they possess</strong> and in <strong>how they value the non-wage characteristics of jobs</strong>.</p>
+<section id="differences-in-human-capital" class="level3" data-number="7.2.1">
+<h3 data-number="7.2.1" class="anchored" data-anchor-id="differences-in-human-capital"><span class="header-section-number">7.2.1</span> Differences in human capital</h3>
+<p>People differ in many ways. Of particular importance for the wage structure are differences in their stocks of human capital. At any point in time, the labour force consists of many <strong>non-competing groups</strong>. Members of each group qualify for one or more occupations.</p>
+<p>Differences in human capital can arise from differences in the innate ability to learn a skill or perform a task. Relatively few people have the intellectual or physical attributes needed to become a nuclear physicist, a professional footballer, a petroleum exploration engineer, an opera singer, or a professional model. Workers in these occupations face little direct competition from the broader pool of skilled and unskilled workers. Nor can a professional athlete readily replace a nuclear physicist, or vice versa. Even within an occupation, workers need not be perfect substitutes. Why do some professional footballers earn so much more than the average for their occupation? Differences in natural ability make other players imperfect substitutes for them.</p>
+<p>More importantly, non-competing groups arise because people differ in the type, amount, and quality of their education and training. A secondary-school leaver might work on a farm, serve customers at a petrol station, join the armed forces, take an unskilled construction job, or work in a fast-food restaurant. We can think of these workers as belonging to one broad group insofar as they could take one another’s jobs. They do not, however, compete directly with lawyers or accountants, who belong to groups with more restrictive entry requirements.</p>
+<p>Workers can and do move between non-competing groups by investing in human capital. A petrol station attendant might decide to go to university to qualify as an accountant. Doing so requires both the financial means to study and the ability to complete the course. To the extent that people differ in income, access to credit, and ability to learn, wage differences between non-competing groups can persist.</p>
+<p>In short, an individual’s stock of human capital depends on natural abilities and on the type, amount, and quality of education and training they receive. The result is a wide range of groups, subgroups, and even individual workers who cannot readily substitute for one another. In the short run, differences in human capital give rise to wage differences because productivity varies across workers. In the long run, people can and do move into better-paid occupations. The extent of this movement is limited, however, by differences in people’s ability to finance investment in human capital and to absorb and apply what they learn. Wage differences therefore persist.</p>
+<section id="discounting-and-net-present-value" class="level4" data-number="7.2.1.1">
+<h4 data-number="7.2.1.1" class="anchored" data-anchor-id="discounting-and-net-present-value"><span class="header-section-number">7.2.1.1</span> Discounting and net present value</h4>
+<p>Education is an investment in human capital. By raising their productivity, people seek future benefits in the form of higher wages and greater job security.</p>
+<p>Investing in human capital involves comparing <strong>current costs</strong> (tuition fees, other educational expenses, and opportunity costs) with <strong>future benefits</strong> (higher expected wages and a greater probability of finding employment).</p>
+<p>People can also invest in their human capital through health, migration, or training, and accumulate it through experience (<em>learning by doing</em>).</p>
+<p>Consider an 18-year-old who has finished secondary school and is deciding whether to attend university. If they act rationally, they will compare the costs and benefits of each option.</p>
+<p>The <strong>monetary costs</strong> of attending university can be direct or indirect. <strong>Direct costs</strong> include tuition and other fees, books, and course materials. <strong>Indirect costs</strong> consist of the earnings the student forgoes while at university. These forgone earnings are the opportunity cost of the time spent studying.</p>
+<p>The <strong>monetary benefits</strong> of university education consist primarily of higher earnings after graduation. The central difficulty is that <strong>the costs and benefits occur at different points in time</strong>.</p>
+<p>A euro spent or received today has a different value from a euro spent or received in the future. To compare the costs and benefits, we express them in terms of their value at a common date, usually today. The difference between the present value of the benefits and that of the costs is the <strong>net present value</strong>.</p>
+<section id="time-preference" class="level5" data-number="7.2.1.1.1">
+<h5 data-number="7.2.1.1.1" class="anchored" data-anchor-id="time-preference"><span class="header-section-number">7.2.1.1.1</span> Time preference</h5>
+<p>Given the choice, most of us would prefer to enjoy something today than to be promised the same enjoyment tomorrow. Life is uncertain, and present consumption feels more tangible and hence more valuable. <em>Time preference</em> describes this impatience, or the value people place on having goods today rather than receiving the same goods in the future. Interest compensates savers for postponing consumption and setting aside part of their income. Suppose someone is indifferent between consuming €100 worth of goods today and consuming €110 worth in a year’s time. Their <strong>rate of time preference</strong> is 10%. They require an extra €10 in a year’s time to give up €100 of consumption today.</p>
+</section>
+<section id="the-present-value-formula" class="level5" data-number="7.2.1.1.2">
+<h5 data-number="7.2.1.1.2" class="anchored" data-anchor-id="the-present-value-formula"><span class="header-section-number">7.2.1.1.2</span> The present value formula</h5>
+<p>When costs and benefits extend over several years, we can use the following <strong>discounting formula</strong> to calculate their present value.</p>
+<p><span id="eq-present-value-expanded"><span class="math display">\[
+PV = G_0 + \frac{G_1}{1+i} + \frac{G_2}{(1+i)^2}
+     + \frac{G_3}{(1+i)^3} + \cdots + \frac{G_N}{(1+i)^N}.
+\tag{7.1}\]</span></span></p>
+<p>Each <span class="math inline">\(G_n\)</span> represents the additional earnings received in year <span class="math inline">\(n\)</span>. Thus <span class="math inline">\(G_0\)</span> is received immediately, <span class="math inline">\(G_1\)</span> in one year, <span class="math inline">\(G_2\)</span> in two years, and so on. The stream runs to year <span class="math inline">\(N\)</span>, the end of the individual’s expected working life, and <span class="math inline">\(i\)</span> is the interest rate. Even a small difference in the rate can have a substantial effect on present value.</p>
+<p>Additional earnings or costs incurred immediately, <span class="math inline">\(G_0\)</span>, require no discounting. Next year’s earnings, <span class="math inline">\(G_1\)</span>, must be discounted for one year. The denominators of the third and fourth terms are squared and cubed because <span class="math inline">\(G_2\)</span> and <span class="math inline">\(G_3\)</span> must be discounted for two and three years, respectively. Consider <span class="math inline">\(G_2\)</span>. Dividing it by <span class="math inline">\(1+i\)</span> gives its value one year from today. Dividing by <span class="math inline">\(1+i\)</span> a second time gives its value today.</p>
+<p>We can write the same formula more compactly as</p>
+<p><span id="eq-present-value-sum"><span class="math display">\[
+PV = \sum_{n=0}^{N} \frac{G_n}{(1+i)^n}.
+\tag{7.2}\]</span></span></p>
+<p>We discount each year’s additional earnings back to the present and sum them over the individual’s working life.</p>
+<p>How can we use <a href="#eq-present-value-expanded" class="quarto-xref">Equation&nbsp;<span>7.1</span></a> or <a href="#eq-present-value-sum" class="quarto-xref">Equation&nbsp;<span>7.2</span></a> to account for both the costs and the benefits of university? We enter costs as negative gains. For each of the four years spent at university, <span class="math inline">\(G_0\)</span>, <span class="math inline">\(G_1\)</span>, <span class="math inline">\(G_2\)</span>, and <span class="math inline">\(G_3\)</span> equal the negative of the sum of that year’s direct and indirect costs. In each subsequent year up to retirement, the additional earnings are positive. With the <span class="math inline">\(G_n\)</span> defined in this way, the two equations give the <em>net</em> present value of attending university.</p>
+</section>
+<section id="the-decision-rule" class="level5" data-number="7.2.1.1.3">
+<h5 data-number="7.2.1.1.3" class="anchored" data-anchor-id="the-decision-rule"><span class="header-section-number">7.2.1.1.3</span> The decision rule</h5>
+<p>The individual will undertake the investment if its net present value is positive (<span class="math inline">\(NPV&gt;0\)</span>). This condition holds when the present value of future gains exceeds the present value of costs.</p>
+<p><span class="math display">\[
+NPV = PV(\text{gains}) - PV(\text{costs}).
+\]</span></p>
+<p>When several alternatives are available, the individual chooses the one with the highest net present value. Examples include choosing between university and vocational training or between different degree programmes.</p>
+</section>
+</section>
+<section id="generalisations-and-implications" class="level4" data-number="7.2.1.2">
+<h4 data-number="7.2.1.2" class="anchored" data-anchor-id="generalisations-and-implications"><span class="header-section-number">7.2.1.2</span> Generalisations and implications</h4>
+<p>The decision rule has several <strong>implications</strong>.</p>
+<section id="duration-of-the-earnings-stream" class="level5" data-number="7.2.1.2.1">
+<h5 data-number="7.2.1.2.1" class="anchored" data-anchor-id="duration-of-the-earnings-stream"><span class="header-section-number">7.2.1.2.1</span> Duration of the earnings stream</h5>
+<p>Other things equal, the longer an investment in human capital generates additional earnings, the higher its net present value. Someone who invests later in life has fewer working years left in which to earn a return. This helps explain why young people are more likely both to attend university and to migrate.</p>
+</section>
+<section id="costs" class="level5" data-number="7.2.1.2.2">
+<h5 data-number="7.2.1.2.2" class="anchored" data-anchor-id="costs"><span class="header-section-number">7.2.1.2.2</span> Costs</h5>
+<p>Other things equal, the lower the cost of investing in human capital, the more people will find the investment worthwhile.</p>
+<p>A reduction in either the direct costs of university or its indirect costs (forgone earnings) will increase enrolment. Older workers invest less in university education partly because their opportunity cost is higher. As the age–earnings profile shows, earnings tend to rise with age.</p>
+<p>Other things equal, the larger the earnings gap between university graduates and secondary-school leavers, the more people will attend university.</p>
+</section>
+</section>
+<section id="why-investment-in-human-capital-varies" class="level4" data-number="7.2.1.3">
+<h4 data-number="7.2.1.3" class="anchored" data-anchor-id="why-investment-in-human-capital-varies"><span class="header-section-number">7.2.1.3</span> Why investment in human capital varies</h4>
+<p>As we have seen, different levels of education involve different costs and yield different future earnings. An individual compares the net present values of the available options and chooses the level of education with the highest value.</p>
+<p>Why, then, do people choose different levels of education? Why does investment in human capital vary from one person to another? The costs and gains associated with a given level of education differ across individuals. Attending university may be worthwhile for one person and unprofitable for another.</p>
+<p>Four considerations are particularly important. People differ in their access to finance, their abilities, the uncertainty they face about whether discrimination will prevent them from turning skills and knowledge into higher earnings, and their time preferences.</p>
+<ol type="1">
+<li><p><strong>Access to finance.</strong> Other things equal, someone who can obtain financing on more favourable terms will find it rational to invest in more education. Consider two workers, Álvarez and Briones, whose demand curves for human capital are identical. Briones might come from a wealthier family that can pledge financial or physical assets as collateral and so borrow at a lower interest rate. Under these conditions, it is rational for Briones to invest in more years of schooling than Álvarez.</p></li>
+<li><p><strong>Differences in ability.</strong> People differ in physical and intellectual ability, motivation, and discipline. Two people with the same education but different abilities may see different gains in productivity and lifetime earnings. The person whose abilities enable them to gain more from their education will earn a higher return in the labour market.</p>
+<p>Suppose Briones has greater intellectual or physical ability, or perhaps greater motivation and discipline. A given amount of schooling then produces a larger increase in Briones’s productivity and earning capacity. Each year of education adds more to Briones’s earnings than to Álvarez’s, giving Briones a higher rate of return on each year of study.</p>
+<p>If it is rational for those with greater ability to acquire more education, the earnings gap widens. Even with the same amount of schooling, Briones would be expected to earn more than Álvarez because of the initial difference in ability. Briones’s decision to acquire more schooling widens the expected gap further.</p></li>
+<li><p><strong>Discrimination and uncertainty about earnings.</strong> Now suppose Álvarez and Briones have the same ability, but Álvarez is a woman and is more likely to encounter discrimination when seeking a job that rewards the productivity she has gained through education. Several forms of discrimination might reduce her chances of converting newly acquired skills into higher earnings. If so, Álvarez faces a lower expected rate of return to education than Briones, and Briones will find it rational to invest more in human capital. Discrimination can therefore have a further effect beyond depressing wages and earnings. It can also weaken the incentive to invest in human capital.</p></li>
+<li><p><strong>Differences in time preference.</strong> How people value the present relative to the future also affects their investment in human capital.</p>
+<p>People who place greater weight on the present attach relatively little value to future earnings. They are reluctant to sacrifice consumption today for benefits later and would require a high interest rate to do so. At their high discount rate, the net present value of future gains is small, and they are unlikely to invest heavily in human capital.</p>
+<p>People who place greater weight on the future attach more value to future earnings. They are willing to sacrifice consumption today even for a relatively low rate of return. At their lower discount rate, the investment has a higher net present value, and they are more likely to invest heavily.</p>
+<p>For example, Carlos may be reluctant to forgo present consumption for future gains. He would discount future earnings at a high rate, reducing both the present value he assigns to a given human capital investment and his likelihood of undertaking it. Berta may be more willing to forgo consumption today. Her lower discount rate gives the same investment a higher present value and makes her more likely to undertake it. Time preference can thus explain why people who are otherwise much alike acquire very different amounts of human capital. We return to this question in <a href="#sec-time-preference">Differences in time preference</a>.</p></li>
+</ol>
+<p>People differ in the type, amount, and quality of their human capital. Consequently, the labour force often consists of non-competing groups whose members cannot easily substitute for one another.</p>
+<p>Income, access to credit, and innate abilities are unevenly distributed, so wage differences between <strong>non-competing groups</strong> can endure. In the long run, wage differences encourage people to change occupations. Constraints on income, credit, and ability limit this movement and allow wage differences to persist.</p>
+</section>
+<section id="an-alternative-theory-of-education-as-a-signal" class="level4" data-number="7.2.1.4">
+<h4 data-number="7.2.1.4" class="anchored" data-anchor-id="an-alternative-theory-of-education-as-a-signal"><span class="header-section-number">7.2.1.4</span> An alternative theory of education as a signal</h4>
+<p>In the human capital investment model, education develops skills, which raise productivity and hence wages. An alternative explanation is that education acts as a <em>signal</em>. Employers can use educational attainment, such as a degree, as an inexpensive way to identify highly productive workers.</p>
+<p>An educational qualification can help employers identify people whose abilities or personal characteristics make them more productive within a firm. These characteristics might include their attitude towards authority, punctuality, and motivation.</p>
+<p>In the signalling model, education commands a wage premium because it indicates that a worker already has the ability to perform more productively than others. Once a worker has passed this initial screening, the employer can judge them by their performance on the job. Bowles and Gintis argue that performance in many jobs depends relatively little on skills taught directly in training programmes and much more on non-cognitive personal characteristics.</p>
+<p>From the individual’s perspective, signalling need not change the net present value calculation. What matters is the additional income associated with education, whether it comes from a gain in productivity or from holding a qualification. Both theories probably explain part of the return to education.</p>
+</section>
+</section>
+<section id="differences-in-preferences" class="level3" data-number="7.2.2">
+<h3 data-number="7.2.2" class="anchored" data-anchor-id="differences-in-preferences"><span class="header-section-number">7.2.2</span> Differences in preferences</h3>
+<p>Workers differ both in their stocks of human capital and in their preferences. Two preferences matter here. One concerns income today versus income in the future. The other concerns the non-wage characteristics of a job.</p>
+<section id="sec-time-preference" class="level4" data-number="7.2.2.1">
+<h4 data-number="7.2.2.1" class="anchored" data-anchor-id="sec-time-preference"><span class="header-section-number">7.2.2.1</span> Differences in time preference</h4>
+<p>Some people focus on the present and discount the future heavily or give it little thought. Others are more willing or able to sacrifice satisfaction today in exchange for greater rewards later. In the human capital investment model, we capture these differences through the individual’s discount rate, <span class="math inline">\(i\)</span>. People who focus on the present have high discount rates. They will give up consumption today only if they expect substantially higher earnings in the future. The higher the discount rate, the lower the net present value of the investment under consideration and the less likely they are to undertake it. People who place more weight on the future are willing to forgo consumption today for a relatively small increase in future earnings. Their lower discount rate gives a particular human capital investment a higher net present value. As a result, they will acquire more human capital than people who focus on the present.</p>
+<p>Differences in time preference have an important implication for the theory of non-competing groups. They help explain why people with similar innate abilities and similar access to finance often choose different levels of investment in human capital. Differences in the resulting stocks of human capital are an important source of wage differences. In this way, one difference among workers, their time preferences, helps explain another, the human capital they acquire.</p>
+</section>
+<section id="preferences-for-the-non-wage-characteristics-of-jobs" class="level4" data-number="7.2.2.2">
+<h4 data-number="7.2.2.2" class="anchored" data-anchor-id="preferences-for-the-non-wage-characteristics-of-jobs"><span class="header-section-number">7.2.2.2</span> Preferences for the non-wage characteristics of jobs</h4>
+<p>Workers also differ in how they value the advantages and disadvantages of particular jobs. For example, some place a high value on workplace safety, while others are more willing to accept risk. Some seek jobs offering more paid leave than usual. Others find holidays boring and would gladly give up some leave for a higher hourly wage. Some workers value occupational status, while others care little what people think of their occupation.</p>
+</section>
+</section>
+</section>
+<section id="differences-among-jobs" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="differences-among-jobs"><span class="header-section-number">7.3</span> Differences among jobs</h2>
+<section id="observed-differences-in-the-wage-structure" class="level3" data-number="7.3.1">
+<h3 data-number="7.3.1" class="anchored" data-anchor-id="observed-differences-in-the-wage-structure"><span class="header-section-number">7.3.1</span> Observed differences in the wage structure</h3>
+</section>
+<section id="sec-compensating-differentials" class="level3" data-number="7.3.2">
+<h3 data-number="7.3.2" class="anchored" data-anchor-id="sec-compensating-differentials"><span class="header-section-number">7.3.2</span> Compensating wage differentials</h3>
+<p>A <strong>compensating wage differential</strong> is the extra pay an employer must offer to compensate a worker for an undesirable job characteristic relative to other available jobs.</p>
+<p>The differential arises because fewer workers are willing to supply labour to jobs with the undesirable characteristic at a given wage, while more are willing to supply labour to alternative jobs.</p>
+<section id="sources-of-compensating-wage-differentials" class="level4" data-number="7.3.2.1">
+<h4 data-number="7.3.2.1" class="anchored" data-anchor-id="sources-of-compensating-wage-differentials"><span class="header-section-number">7.3.2.1</span> Sources of compensating wage differentials</h4>
+<p>Other things equal, the following job characteristics can affect wages.</p>
+<ol type="1">
+<li><strong>Risk of injury.</strong> Jobs with a greater risk of workplace injury, particularly fatal injury, pay higher wages.</li>
+<li><strong>Non-wage benefits.</strong> Jobs offering more generous benefits pay lower cash wages.</li>
+<li><strong>Occupational status.</strong> More prestigious jobs pay lower wages when the number of people seeking them exceeds the number of jobs available.</li>
+<li><strong>Location.</strong> Wages tend to be lower in cities with attractive amenities. Cities with a higher cost of living tend to offer higher nominal wages.</li>
+<li><strong>Job security and regularity of earnings.</strong> Jobs offering less stable contracts pay higher wages. Sectors with a greater risk of unemployment may pay a wage premium of up to 14%. Unemployment benefits reduce the compensating differential.</li>
+<li><strong>Prospects for earnings growth.</strong> Jobs that offer better career prospects, for example through firm-specific training, may offer lower starting pay than jobs with fewer opportunities for advancement.</li>
+<li><strong>Control over the pace of work.</strong> Jobs that offer flexible hours and give workers more control over their pace of work pay lower wages.</li>
+</ol>
+</section>
+</section>
+<section id="differences-in-skill-requirements" class="level3" data-number="7.3.3">
+<h3 data-number="7.3.3" class="anchored" data-anchor-id="differences-in-skill-requirements"><span class="header-section-number">7.3.3</span> Differences in skill requirements</h3>
+<p>Jobs requiring greater skills offer higher wages. Differences in skill requirements can outweigh compensating wage differentials. Doctors, for example, earn more than refuse collectors. In practice, better-paid workers generally also enjoy more desirable working conditions. See the discussion of human capital theory above.</p>
+</section>
+<section id="wage-differences-arising-from-efficiency-wages" class="level3" data-number="7.3.4">
+<h3 data-number="7.3.4" class="anchored" data-anchor-id="wage-differences-arising-from-efficiency-wages"><span class="header-section-number">7.3.4</span> Wage differences arising from efficiency wages</h3>
+<p>Employers and workers face a <strong>principal–agent problem</strong>. Workers can increase their own utility by shirking, which reduces both their productivity and the firm’s profit. Firms therefore try to design pay systems that align workers’ incentives with their own.</p>
+<p>Pay arrangements and incentives include</p>
+<ul>
+<li>piece rates,</li>
+<li>sales commissions,</li>
+<li>hourly pay,</li>
+<li>promotions,</li>
+<li>bonuses, and</li>
+<li>profit-sharing or employee share ownership.</li>
+</ul>
+<p>When individual performance is easy to measure, a firm can address the principal–agent problem by linking pay to performance. Often, however, individual performance is difficult to measure. The firm might monitor workers’ effort, but supervision is expensive. Who monitors the security staff, the managers, or the supervisors themselves?</p>
+<p>One solution is to pay wages above the competitive level. So far, we have assumed that a higher wage increases the quantity of labour supplied while leaving productivity unchanged. <strong>Efficiency wage theories</strong> allow wages to affect productivity. Higher pay can encourage workers to exert more effort and help the firm attract and retain its most productive employees.</p>
+<p>In a diagram, an increase in wages can shift the labour demand curve to the right because it raises the marginal product of labour. Two models explain how this can happen. The first focuses on shirking and the second on labour turnover.</p>
+<section id="the-shirking-model" class="level4" data-number="7.3.4.1">
+<h4 data-number="7.3.4.1" class="anchored" data-anchor-id="the-shirking-model"><span class="header-section-number">7.3.4.1</span> The shirking model</h4>
+<p>A wage above the market rate makes a job more valuable to the worker relative to the alternatives. Being dismissed for shirking therefore becomes more costly.</p>
+<p>If workers respond by increasing effort enough for productivity to rise proportionately more than the wage, the firm’s wage cost per effective unit of labour falls.</p>
+<p>Graphically, the labour demand curve <span class="math inline">\(D_L\)</span> shifts to the right. The firm is willing to employ the same quantity of labour as before at a higher wage.</p>
+</section>
+<section id="the-labour-turnover-model" class="level4" data-number="7.3.4.2">
+<h4 data-number="7.3.4.2" class="anchored" data-anchor-id="the-labour-turnover-model"><span class="header-section-number">7.3.4.2</span> The labour turnover model</h4>
+<p>Firms may raise wages to reduce costly labour turnover. Lower turnover raises average productivity because experienced workers with firm-specific training leave less frequently.</p>
+<p>In 1914, for example, Ford raised daily pay from $2.50 to $5 to reduce voluntary turnover and absenteeism. Both fell, and labour productivity rose by 50%.</p>
+<p>An implication of efficiency wages is that labour markets need not clear. Suppose a firm can reduce its wage cost per effective unit of labour by raising the wage from <span class="math inline">\(W_1\)</span> to <span class="math inline">\(W_2\)</span>. The lower unit cost reflects higher labour productivity, which shifts labour demand from <span class="math inline">\(D_1\)</span> to <span class="math inline">\(D_2\)</span>.</p>
+<p>Although <span class="math inline">\(W_2\)</span> is an equilibrium wage in this model, it leaves an excess supply of labour. The market-clearing outcome is marked <span class="math inline">\(A\)</span> in the diagram. Unemployment, represented by the distance <span class="math inline">\(BC\)</span>, helps sustain productivity because the prospect of unemployment discourages workers from shirking.</p>
+</section>
+</section>
+<section id="other-differences-among-jobs" class="level3" data-number="7.3.5">
+<h3 data-number="7.3.5" class="anchored" data-anchor-id="other-differences-among-jobs"><span class="header-section-number">7.3.5</span> Other differences among jobs</h3>
+<ol type="1">
+<li><p><strong>Trade union power.</strong> Firms in which workers’ representatives have greater bargaining power are likely to pay higher wages. In countries such as Spain, where unions have a legal right to represent all workers, collective bargaining tends to reduce wage differences. Even so, workers in settings with a strong union presence and considerable bargaining power are likely to secure higher pay over the medium term. Union power can therefore help explain differences in pay across workplaces.</p></li>
+<li><p><strong>Discrimination by employers.</strong> Employers differ in the extent to which they favour or disadvantage particular groups of workers. These differences can give rise to wage disparities.</p></li>
+<li><p><strong>Type of employment contract.</strong> Wage differences may also reflect the type of contract a worker holds. Consider a worker on a fixed-term contract. Would we expect this worker to earn more or less than an otherwise similar worker on an open-ended contract? Two forces work in opposite directions, so the theoretical prediction is ambiguous.</p>
+<p>The theory of compensating wage differentials predicts higher pay for a fixed-term worker to compensate for the shorter expected duration of employment.</p>
+<p>However, a lower probability of renewal may weaken incentives to acquire firm-specific human capital. Through this mechanism, the fixed-term worker could earn less.</p>
+<p>The empirical evidence discussed here indicates that workers on fixed-term contracts earn less than permanent workers. The gap is 10–15% for men and 7% for women.</p></li>
+<li><p><strong>Firm size.</strong> Large firms and firms with large market shares generally pay more than small firms. Several explanations draw on job characteristics discussed earlier.</p>
+<p>First, unions tend to have greater bargaining power in large firms, as discussed in point 1.</p>
+<p>Second, employees of large firms may be more productive than comparable employees of small firms. They may work with more or better capital per worker, or greater specialisation may require more on-the-job training.</p>
+<p>Third, part of the large-firm wage premium may be a <a href="#sec-compensating-differentials">compensating wage differential</a>. Large firms may be more bureaucratic and less pleasant places to work. They are also more likely to be located in large metropolitan areas, where both living costs and commuting expenses are high.</p></li>
+</ol>
+</section>
+</section>
+<section id="labour-market-imperfections" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="labour-market-imperfections"><span class="header-section-number">7.4</span> Labour market imperfections</h2>
+<p>Alongside differences among workers, jobs, and employers, labour market imperfections can explain a substantial share of wage differences by limiting worker mobility.</p>
+<section id="imperfect-information" class="level3" data-number="7.4.1">
+<h3 data-number="7.4.1" class="anchored" data-anchor-id="imperfect-information"><span class="header-section-number">7.4.1</span> Imperfect information</h3>
+<p>So far, we have assumed perfect market information. In practice, information about the labour market is incomplete and costly to obtain. Because workers differ, firms search for those best suited to the jobs they have to fill. Workers, in turn, learn about job opportunities by reading vacancy notices, writing to employers, and approaching firms directly. Both sides incur direct search costs and an opportunity cost for the time they spend searching. Information gathering also yields diminishing returns. In cost terms, the marginal cost of obtaining additional information rises as the search proceeds.</p>
+<p>Imperfect and increasingly costly information has two important implications for the labour market and the wage structure. First, a range of wages may exist within a single occupation even in the absence of compensating differentials. Second, when shifts in demand create wage differences, the long-run adjustment of labour supply is likely to be slow.</p>
+<section id="wage-distributions" class="level4" data-number="7.4.1.1">
+<h4 data-number="7.4.1.1" class="anchored" data-anchor-id="wage-distributions"><span class="header-section-number">7.4.1.1</span> Wage distributions</h4>
+<p>Once we allow for imperfect and costly information, as well as differences among workers and employers, a single equilibrium wage for each type of work becomes unlikely. Instead, we would expect to observe a range of equilibrium wages for each type of work. The range may be narrow or wide, depending on conditions in that occupational labour market. The pattern of wages across workers is the <strong>wage distribution</strong>.</p>
+<p>The distribution shown in the figure is one of many possible distributions. It is symmetric, although other shapes are possible.</p>
+<p>When information is imperfect and costly to acquire, within-occupation wage differences can persist in equilibrium. Such differences need not prompt a worker to change jobs if the expected gain from finding a higher wage is smaller than the marginal cost of obtaining the necessary information.</p>
+<p>How can a wage distribution like the one in the figure persist? Would workers in lower-paid jobs not move to better-paid ones until a single equilibrium wage emerged? Consider how costly information and job search affect the decision. Employers set wages according to their own circumstances and their estimates of the going market wage. Some pay a little above the average and others a little below it. Because information is incomplete and costly, some firms and workers are unaware that similar workers elsewhere earn more or less. Others may know that wages vary but recognise that it is costly to discover which employers pay more for the same type of work. Many workers will judge that the marginal cost of obtaining this information exceeds the expected marginal gain from a higher wage. They will remain in their current jobs, and the wage differential will persist.</p>
+</section>
+<section id="lengthy-adjustment-periods" class="level4" data-number="7.4.1.2">
+<h4 data-number="7.4.1.2" class="anchored" data-anchor-id="lengthy-adjustment-periods"><span class="header-section-number">7.4.1.2</span> Lengthy adjustment periods</h4>
+<p>Even when workers decide that a wage differential makes changing jobs worthwhile, imperfect and costly information slows the response. After a shift in demand, it may take months or even years for labour supply to adjust.</p>
+<p>Suppose the demand for labour in occupation <span class="math inline">\(X\)</span> rises sharply. With an upward-sloping short-run labour supply curve, the new equilibrium entails a higher wage in that occupation. News of the increase is unlikely to reach everyone immediately. People deciding what kind of human capital to acquire and how much to invest will <em>gradually</em> learn of the increase. More information becomes available over time. Even then, prospective entrants may wonder whether the wage advantage will last or whether it will have disappeared by the time they qualify.</p>
+<p>Once workers <em>begin</em> to see the wage advantage in occupation <span class="math inline">\(X\)</span> as permanent, some will respond. Workers will eventually enter <span class="math inline">\(X\)</span> and leave other occupations, say <span class="math inline">\(Y\)</span> and <span class="math inline">\(Z\)</span>, narrowing the wage differential as the basic theory predicts. In occupations with long training periods, such as law and engineering, the supply response can be large enough to reverse the differential. The next adjustment may then overshoot in the other direction. Labour supply may fall so far that a positive wage differential reappears. For a time, the wage may fluctuate above and below its long-run equilibrium level, <span class="math inline">\(W_e\)</span>. In the diagram, the wage moves from <span class="math inline">\(W_0\)</span> to <span class="math inline">\(W_1\)</span>, then to <span class="math inline">\(W_2\)</span>, and so on in successive periods. Labour markets with imperfect and costly information may therefore exhibit many <strong>temporary wage differentials</strong> because adjustment takes time and sometimes involves oscillations.</p>
+<p>To follow the diagram, start with an increase in demand, represented by a rightward shift of <span class="math inline">\(D_L\)</span>. In an occupation with a long training period, the wage may rise substantially, reaching <span class="math inline">\(W_0\)</span>. The subsequent response of labour supply, <span class="math inline">\(S_L\)</span>, may create excess supply and push the wage down to <span class="math inline">\(W_1\)</span>.</p>
+<p>The wage may then fluctuate around <span class="math inline">\(W_e\)</span> for some time. During this transition, wage differences will be observed between this occupation and others in which the equilibrium wage is also <span class="math inline">\(W_e\)</span>.</p>
+</section>
+</section>
+<section id="barriers-to-mobility" class="level3" data-number="7.4.2">
+<h3 data-number="7.4.2" class="anchored" data-anchor-id="barriers-to-mobility"><span class="header-section-number">7.4.2</span> Barriers to mobility</h3>
+<p>Even if firms and workers had perfect information about market wages, barriers that prevent workers from moving between jobs could sustain wage differences.</p>
+<ol type="1">
+<li><p><strong>Geographical barriers.</strong> The costs of moving can discourage migration and allow wage differences between regions to persist.</p></li>
+<li><p><strong>Institutional barriers.</strong></p>
+<ul>
+<li>Governments and trade unions can restrict mobility, for example through occupational licensing requirements.</li>
+<li>Housing markets can also limit mobility, particularly when housing prices vary widely across regions or the rental market is underdeveloped.</li>
+</ul></li>
+<li><p><strong>Social barriers.</strong> Wage discrimination and occupational segregation can sustain lasting wage differences. Workers from particular groups may find it difficult to enter an occupation if employers hold prejudices against them and regard them as unsuitable for that work.</p></li>
+</ol>
+</section>
+</section>
+<section id="empirical-evidence" class="level2" data-number="7.5">
+<h2 data-number="7.5" class="anchored" data-anchor-id="empirical-evidence"><span class="header-section-number">7.5</span> Empirical evidence</h2>
+<p>Having considered the theory, we now turn to how we can measure wage differences in practice.</p>
+<section id="tools-for-analysing-inequality" class="level3" data-number="7.5.1">
+<h3 data-number="7.5.1" class="anchored" data-anchor-id="tools-for-analysing-inequality"><span class="header-section-number">7.5.1</span> Tools for analysing inequality</h3>
+<p>We will use three types of tools to examine inequality in the data.</p>
+<ol type="1">
+<li><p><strong>Representations of the wage distribution.</strong> As we have seen, workers generally earn a range of wages. We can describe this distribution in two ways.</p>
+<ul>
+<li>A <strong>frequency or probability distribution</strong> shows how often each wage or range of wages occurs.</li>
+<li>A <strong>cumulative distribution function</strong> gives the proportion of the population earning a wage <strong>less than or equal to</strong> a specified value.</li>
+</ul></li>
+<li><p><strong>Measures of position.</strong></p>
+<ul>
+<li>Quantiles include percentiles, deciles, quintiles, and quartiles.</li>
+<li>Quantiles can be used to construct <strong>simple measures of inequality</strong>, such as the P90/P10 ratio.</li>
+</ul></li>
+<li><p>The <strong>Lorenz curve</strong> and the <strong>Gini coefficient</strong>.</p></li>
+</ol>
+</section>
+<section id="sec-wage-distribution" class="level3" data-number="7.5.2">
+<h3 data-number="7.5.2" class="anchored" data-anchor-id="sec-wage-distribution"><span class="header-section-number">7.5.2</span> Representing the wage distribution</h3>
+<p>The figure illustrates the typical shape of a wage distribution. The horizontal axis shows the annual wages observed in this population, in euros. The vertical axis shows the number of employees at each wage level. The data are from 2006, so the wage levels shown are somewhat lower than those observed in more recent years.</p>
+<p>Wage distributions are typically right-skewed. Most employees earn low or middle incomes, while a small number earn considerably more than the rest of the employed population.</p>
+<p>In a typical wage distribution of this shape, the mean wage exceeds both the most common wage (the mode) and the median wage, which divides employees into two equally sized groups. This gap helps explain why readers often feel that the wages reported in conventional surveys seem high. The figure usually reported is the mean.</p>
+<p>The <strong>cumulative distribution function</strong> gives the proportion of workers whose earnings are <em>at or below</em> a particular wage. As we move to the right, the cumulative share can only increase or stay the same, because each point includes all the observations to its left.</p>
+</section>
+<section id="measures-of-position" class="level3" data-number="7.5.3">
+<h3 data-number="7.5.3" class="anchored" data-anchor-id="measures-of-position"><span class="header-section-number">7.5.3</span> Measures of position</h3>
+<p><strong>Quantiles</strong> are values that divide an ordered distribution into a specified number of equally sized groups.</p>
+<ul>
+<li><strong>Percentiles</strong> are the 99 cut-off values that divide ordered data into 100 equal parts. For example, the 15th percentile marks the point with approximately 15% of observations below it and 85% above it.</li>
+<li><strong>Quartiles</strong> are the three cut-off values that divide ordered data into four equal parts. They correspond to particular percentiles.</li>
+<li><strong>Deciles</strong> are the nine cut-off values that divide ordered data into ten equal parts.</li>
+</ul>
+<p>For example, the fifth decile (<span class="math inline">\(D_5\)</span>), the median, and the second quartile (<span class="math inline">\(Q_2\)</span>) all mark the halfway point of the ordered distribution.</p>
+<p>Ratios of selected quantiles provide <strong>simple measures of inequality</strong>. A common example is the ratio of the 90th-percentile wage to the 10th-percentile wage, P90/P10. It tells us how many times the wage at the 90th percentile exceeds the wage at the 10th percentile.</p>
+<p>Inequality also varies within educational groups. Wage inequality appears lower among workers with no formal education, who earn less on average, and higher among university graduates, who earn more on average. More education increases the likelihood of earning a high wage. Even so, some highly educated workers earn less than workers with less education. The extent to which education translates into higher pay varies across individuals.</p>
+</section>
+<section id="the-lorenz-curve-and-the-gini-coefficient" class="level3" data-number="7.5.4">
+<h3 data-number="7.5.4" class="anchored" data-anchor-id="the-lorenz-curve-and-the-gini-coefficient"><span class="header-section-number">7.5.4</span> The Lorenz curve and the Gini coefficient</h3>
+<p>If income were distributed equally, the poorest 20% of the population would receive 20% of total income. What happens when they receive a smaller share? This is what we observe in practice, since no society has a perfectly equal income distribution. To draw the <strong>Lorenz curve</strong>, rank individuals from poorest to richest and plot the cumulative share of income against the cumulative share of the population. With an unequal income distribution, the curve joining these points lies below the line of equality.</p>
+<p>The Lorenz curve allows us to calculate the <strong>Gini coefficient</strong>. Divide the area between the Lorenz curve and the line of equality by the total area under the line of equality. The resulting coefficient ranges from 0 for perfect equality to 1 for the limiting case of complete inequality, in which one individual receives all the income.</p>
+<p>In practice, national Gini coefficients fall well below 1. On the 0–1 scale, the range in which national Gini coefficients typically fall is approximately between 0.20 and 0.60. Countries with particularly high coefficients are often in sub-Saharan Africa and Latin America. European countries with relatively low coefficients include Belgium, the Netherlands, and Finland, as well as Slovakia, which often records the lowest coefficient in international comparisons.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./government.html" class="pagination-link" aria-label="Government and the labour market">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Government and the labour market</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./discrimination.html" class="pagination-link" aria-label="Discrimination">
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Discrimination</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
